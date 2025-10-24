@@ -12,6 +12,6 @@ jobs:  # Define los jobs (tareas) del workflow
       - name: Print Hello World  # Nombre del paso (opcional)
         run: echo "Hello World!"  # Comando a ejecutar (aquí usamos 'echo')
       - name: Now it is  
-        run: run date  
+        run: date  
       - name: Directory content
         run: ls -l
